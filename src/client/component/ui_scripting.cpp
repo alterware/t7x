@@ -206,6 +206,7 @@ namespace ui_scripting
 			lua["table"]["unpack"] = lua["unpack"];
 			lua["luiglobals"] = lua;
 			lua["Engine"]["is_t7x"] = true;
+			lua["Engine"]["IsBOIII"] = true;
 		}
 
 		void start()
